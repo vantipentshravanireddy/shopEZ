@@ -1,0 +1,51 @@
+.profile-page {
+  display: flex;
+  gap: 40px;
+  padding: 30px;
+}
+
+.profile-sidebar {
+  width: 280px;
+  height: fit-content;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.profile-sidebar h3 {
+  margin-bottom: 20px;
+}
+
+.profile-sidebar button {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.orders-section {
+  flex: 1;
+}
+
+.orders-section h1 {
+  margin-bottom: 20px;
+}
+
+.order-box {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.order-details h3 {
+  margin-bottom: 10px;
+}
+
+.order-details p {
+  margin: 5px 0;
+}

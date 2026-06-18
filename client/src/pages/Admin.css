@@ -1,0 +1,36 @@
+.admin-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.admin-title {
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+
+.dashboard-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.dashboard-card {
+  width: 250px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.dashboard-card h2 {
+  font-size: 18px;
+  color: #666;
+}
+
+.dashboard-card p {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 10px;
+}
